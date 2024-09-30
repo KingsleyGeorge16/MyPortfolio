@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>My Portfolio</title>
+    <link rel="icon" sizes="30x30" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+
+    <!--=====Nav Bar Section===================================================-->
+    <nav id="nav">
+        <div class="brand">KingsleyGeorge.</div>
+        <div class="">
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <nav id="side-nav">
+        <div class="brand">George.</div>
+        <div class="side-menu">
+
+            <div class="side-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+            
+        </div>
+    </nav>
+
+    <!--=====Hero Section===================================================-->
+    <section id="home">
+
+        <div class="picture">
+            <img src="img/photo7.png" style="border-radius: 400px;" alt="George's Profile Pic">
+        </div>
+
+        <div class="home-text">
+            <p class="text-p1">Hello, I'm</p>
+            <h1 class="header">Kingsley George.</h1>
+            <p class="text-p2">A Full Stack Developer</p>
+            <div class="btn-container">
+                <a href="#" target="_blank"><button class="btn btn2" onclick="window.open('img/MyResume.pdf')">Download CV</button></a>
+                <a href="#"><button class="btn btn1" onclick="location.href='/#contact'">Contact Me</button></a>
+            </div>
+            <div id="socials-icons">
+                <a href="https://www.facebook.com" target="_blank" class="iconz"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="iconz"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.twitter.com" target="_blank" class="iconz"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.pinterest.com" target="_blank" class="iconz"><i class="fa fa-pinterest"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" class="iconz"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.github.com" target="_blank" class="iconz"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--=====About Section===================================================-->
+    <section id="about">
+        <p class="text-p1" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Get To Know More</p>
+        <h1 class="header">About Me</h1>
+        <div class="section-container">
+            <div class="picture">
+                <img src="img/photo2.png" class="about-pic" alt="My Profile Pic">
+            </div>
+            <div class="detail-container">
+                <div class="about-contain">
+                    <div class="details">
+                        <i class="fa fa-graduation-cap icons"></i>
+                        <h2>Experience</h2>
+                        <p>1 years plus in <br> Web Development and Designer</p>
+                    </div>
+
+                    <div class="details">
+                        <i class="fa fa-users icons"></i>
+                        <h2>Education</h2>
+                        <p>B.Sc Bachelors Degree <br> M.Sc Masters Degree</p>
+                    </div>
+                </div>
+                <div class="text-box">
+                    <p>
+                         This educational background has provided me with a strong foundation in business principles and
+                          communication strategies, equipping me with 
+                         the skills necessary to excel in dynamic professional environments.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a href="#experience"><i class="fa fa-chevron-down icon arrow"></i></a>
+    </section>
+
+    <!--=====Experience Section===============================================-->
+    <section id="experience">
+        <p class="text-p1">Explore My</p>
+        <h1 class="header">Experience</h1>
+        <div class="experience-details">
+            <div class="about-contain">
+                <div class="details">
+                    <h2 class="experience-header">Frontend Development</h2>
+                    <div class="article-row">
+
+                        <article>
+                            <img src="img/check.png" class="icons badge" alt="Experience Icon">
+                            <div class="">
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="img/check.png" class="icons badge" alt="Experience Icon">
+                            <div class="">
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <!-- <article>
+                            <img src="img/check.png" class="icons badge" alt="Experience Icon">
+                            <div class="">
+                                <h3>PHP</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article> -->
+                        <article>
+                            <img src="img/check.png" class="icons badge" alt="Experience Icon">
+                            <div class="">
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <!-- <article>
+                            <img src="img/check.png" class="icons badge" alt="Experience Icon">
+                            <div class="">
+                                <h3>TypeScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="img/check.png" class="icons badge" alt="Experience Icon">
+                            <div class="">
+                                <h3>Material UI</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article> -->
+
+                    </div>
+                </div>
+
+                <div class="details">
+                    <h2 class="experience-header">Backend Development</h2>
+                    <div class="article-row">
+
+                        <article>
+                            <img src="img/check.png" class="icon badge" alt="Experience Icon">
+                            <div class="">
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="img/check.png" class="icon badge" alt="Experience Icon">
+                            <div class="">
+                                <h3>Django</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="img/check.png" class="icons badge" alt="Experience Icon">
+                            <div class="">
+                                <h3>PHP</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <!-- <article>
+                            <img src="img/check.png" class="icon badge" alt="Experience Icon">
+                            <div class="">
+                                <h3>PostgreSQL</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article> -->
+                        <!-- <article>
+                            <img src="img/check.png" class="icon badge" alt="Experience Icon">
+                            <div class="">
+                                <h3>Express JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article> -->
+                        <article>
+                            <img src="img/check.png" class="icon badge" alt="Experience Icon">
+                            <div class="">
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <a href="#projects"><i class="fa fa-chevron-down icon arrow"></i></a>
+    </section>
+
+    <!--=====Projects Section===============================================-->
+    <section id="projects">
+        <p class="text-p1">Take A Look At My Latest</p>
+        <h1 class="header pro">Projects</h1>
+        <div class="experience-details">
+            <div class="project-contain">
+                
+                <div class="details work-color">
+                    <div class="article-row">
+                        <img src="img/work-1.png" alt="Project1" class="project-img">
+                    </div>
+                    <div class="experience-header work-title">Social Media Website</div>
+                    <div class="btn-container">
+                        <a href="https://www.github.com" target="_blank"><button class="btn btn2 project-btn">GitHub</button></a>
+                        <a href="file:///Users/KingsleyGeorge/Desktop/TwitFlash/index.html" target="_blank"><button class="btn btn2 project-btn">Live Demo</button></a>
+                    </div>
+                </div>
+
+                <div class="details work-color">
+                    <div class="article-row">
+                        <img src="img/barber.png" alt="Project1" class="project-img">
+                    </div>
+                    <div class="experience-header work-title">Barber Shop</div>
+                    <div class="btn-container">
+                        <a href="https://www.github.com" target="_blank"><button class="btn btn2 project-btn">GitHub</button></a>
+                        <a href="file:///Users/KingsleyGeorge/Desktop/AJStyles/index.html" target="_blank"><button class="btn btn2 project-btn">Live Demo</button></a>
+                    </div>
+                </div>
+    
+                <!-- <div class="details work-color">
+                    <div class="article-row">
+                        <img src="img/work-23.png" alt="Project1" class="project-img">
+                    </div>
+                    <div class="experience-header work-title">Music App</div>
+                    <div class="btn-container">
+                        <a href="https://www.github.com" target="_blank"><button class="btn btn2 project-btn">GitHub</button></a>
+                        <a href="file:///Users/KingsleyGeorge/Desktop/MusicPlayer/index.html" target="_blank"><button class="btn btn2 project-btn">Live Demo</button></a>
+                    </div>
+                </div> -->
+    
+                <div class="details work-color">
+                    <div class="article-row">
+                        <img src="img/work-3.png" alt="Project1" class="project-img">
+                    </div>
+                    <div class="experience-header work-title">Online Store</div>
+                    <div class="btn-container">
+                        <a href="https://www.github.com" target="_blank"><button class="btn btn2 project-btn">GitHub</button></a>
+                        <a href="file:///Users/KingsleyGeorge/Desktop/OnlineStore/index.html" target="_blank"><button class="btn btn2 project-btn">Live Demo</button></a>
+                    </div>
+                </div>
+
+                <div class="details work-color">
+                    <div class="article-row">
+                        <img src="img/work-4.png" alt="Project1" class="project-img">
+                    </div>
+                    <div class="experience-header work-title">Cosmetics Store</div>
+                    <div class="btn-container">
+                        <a href="https://www.github.com" target="_blank"><button class="btn btn2 project-btn">GitHub</button></a>
+                        <a href="file:///Users/KingsleyGeorge/Desktop/HexyBeautyLine/index.html" target="_blank"><button class="btn btn2 project-btn">Live Demo</button></a>
+                    </div>
+                </div>
+
+                <div class="details work-color">
+                    <div class="article-row">
+                        <img src="img/work-5.png" alt="Project1" class="project-img">
+                    </div>
+                    <div class="experience-header work-title">School Management System</div>
+                    <div class="btn-container">
+                        <a href="https://www.github.com" target="_blank"><button class="btn btn2 project-btn">GitHub</button></a>
+                        <a href="file:///Users/KingsleyGeorge/Desktop/SchoolManagementSys/index.html" target="_blank"><button class="btn btn2 project-btn">Live Demo</button></a>
+                    </div>
+                </div>
+
+                <div class="details work-color">
+                    <div class="article-row">
+                        <img src="img/work-6.png" alt="Project1" class="project-img">
+                    </div>
+                    <div class="experience-header work-title">University Website</div>
+                    <div class="btn-container">
+                        <a href="https://www.github.com" target="_blank"><button class="btn btn2 project-btn">GitHub</button></a>
+                        <a href="file:///Users/KingsleyGeorge/Desktop/UniTech/index.html" target="_blank"><button class="btn btn2 project-btn">Live Demo</button></a>
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+        <a href="#contact"><i class="fa fa-chevron-down icon arrow"></i></a>
+
+    </section>
+
+    <!--=====Contact Section=-==============================================-->
+    <section id="contact">
+        <p class="text-p1">Get In Touch</p>
+        <h1 class="header">Contact Me</h1>
+        <div class="contact-contain">
+
+            <div class="contact-info">
+                <i class="fa fa-envelope icon con-icon"></i>
+                <p><a href="mailto:examplemail@gmail.com">kingsgeorge751@gmail.com</a></p>
+            </div>
+            <div class="contact-info">
+                <i class="fa fa-linkedin icon con-icon"></i>
+                <p><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
+            </div>
+
+        </div>
+    </section>
+
+    <!--=====Footer Section=-==============================================-->
+    <footer>
+        <nav>
+            <div class="nav-links-contain">
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &copy; 2024 Kingsley George - All Rights Reserved</p>
+    </footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
